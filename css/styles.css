@@ -40,7 +40,7 @@ p {
 
 .container {
   align-items: center;
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -163,7 +163,6 @@ section {
 }
 
 /* Герой */
-
 /* секція */
 
 .section-heder {
@@ -180,8 +179,7 @@ section {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4) );
-  background-image: url(../images/Img-min.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-min.jpg);
   background-position: center;
   background-size: contain;
   background-color: var(--title-background-color);
@@ -222,6 +220,7 @@ section {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 
 /* Наші переваги */
 
@@ -269,20 +268,20 @@ section {
   margin-block-end: 0;
 }
 
- .list-benefits:nth-child(4n) {
+.blok:last-child {
   margin-right: 0px;
 }
 
 .blok::before {
   display: block;
   content: "";
-  outline: 1px solid red;
+  
   
   height: 120px;
   padding: 25px 102.34px;
   margin-bottom: 30px;
   
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
