@@ -136,17 +136,16 @@ section {
 .contakt-link:hover {
   color: var(--accent-color);
 }
-/* 
-.contakt-link::before {
-  content: "";
+.icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  
-  background-image: url(../images/icons.svg/envelope.svg);
-  fill:#2196f3;
-  background-size: contain;
-} */
+  padding: 0;
+  margin-bottom: 0;
+  fill: currentColor;
+
+}
+
 .contakt-type {
   padding-left: 40px;
   color: var(--title-text-color);
@@ -272,38 +271,20 @@ section {
   margin-right: 0px;
 }
 
-.blok::before {
+.blok-icon {
   display: block;
-  content: "";
-  
   
   height: 120px;
-  padding: 25px 102.34px;
-  margin-bottom: 30px;
   
-  background-size: auto;
+  margin-bottom: 30px;
+  /* background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
-  
+  background-color: #F5F4FA; */
+
 }
 
-.icon-antenna::before {
-  background-image: url(../images/antenna.svg );
-  
-}
 
-.icon-watch::before {
- background-image: url(../images/clock\ .svg);
-}
-
-.icon-comp::before {
-background-image:  url(../images/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/astronaut.svg);
-} 
 
 /* Чим ми займаємось */
 
@@ -331,18 +312,17 @@ background-image:  url(../images/diagram.svg);
   height: auto;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: calc(-1*30);
-  margin-top: calc(-1*30);
 }
 
-.subtitle-main > .subtitle-list {
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100% / 3 - 30px);
-}
 .subtitle-list {
   list-style: none; 
-} 
+  margin-right: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.subtitle-main:nth-child(3n) {
+  margin-right: 0px;
+}
 
 /* Наша команда */
 
