@@ -130,6 +130,8 @@ section {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .contakt-link:focus,
@@ -143,9 +145,12 @@ section {
   padding: 0;
   margin-bottom: 0;
   fill: currentColor;
-
 }
 
+.icon-envelope:focus,
+.icon-envelope:hover {
+  fill: #2196f3;
+}
 .contakt-type {
   padding-left: 40px;
   color: var(--title-text-color);
@@ -155,6 +160,8 @@ section {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center
 }
 .contakt-type:focus,
 .contakt-type:hover {
@@ -164,9 +171,10 @@ section {
 .icon-tel {
   width: 10px;
   height: 16px;
-  margin-bottom: 10px;
+  margin-right: 10px;
   margin-bottom: 0px;
   padding: 0;
+  fill: currentColor;
 }
 
 /* Герой */
@@ -279,20 +287,37 @@ section {
   margin-right: 0px;
 }
 
-.blok-icon {
+.icon {
   display: block;
-  
+  width: 270px;
   height: 120px;
-  
   margin-bottom: 30px;
-  /* background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA; */
-
+  background-color: #F5F4FA;
 }
 
+.icon-antenna {
+  height: 70px;
+  width: 65.32px;
+  margin: 25px 102.34px;
+}
 
+.icon-clock-1 {
+  height: 70px;
+  width: 66.96px;
+  margin: 25px 101.54px;
+}
+
+.icon-diagram {
+  height: 53.60px;
+  width: 70px;
+  margin: 33px 100px;
+}
+
+.icon-astronaut {
+  height: 70px; 
+  width: 70px;
+  margin: 25px 100px;
+}
 
 /* Чим ми займаємось */
 
