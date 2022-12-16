@@ -149,7 +149,7 @@ section {
 
 .icon-envelope:focus,
 .icon-envelope:hover {
-  fill: #2196f3;
+  color: var(--accent-color);
 }
 .contakt-type {
   padding-left: 40px;
@@ -165,7 +165,7 @@ section {
 }
 .contakt-type:focus,
 .contakt-type:hover {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .icon-tel {
@@ -175,6 +175,11 @@ section {
   margin-bottom: 0px;
   padding: 0;
   fill: currentColor;
+}
+
+.icon-tel:focus,
+.icon-tel:hover {
+  color: var(--accent-color);
 }
 
 /* Герой */
@@ -343,14 +348,12 @@ section {
   display: flex;
   max-width: 100%;
   height: auto;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .subtitle-list {
   list-style: none; 
-  margin-right: 30px;
-  flex-basis: calc(100% / 3 - 30px);
 }
 
 .subtitle-main:nth-child(3n) {
@@ -425,6 +428,63 @@ section {
   text-align: center;
  }
 
+ .icon-instagram {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: currentColor;
+ }
+ .icon-instagram:focus,
+ .icon-instagram:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+ }
+
+ .icon-twitter {
+  width: 20px;
+  height: 20px;
+  margin: 12px 13.88px;
+  fill: currentColor;
+ }
+ .icon-twitter:focus,
+ .icon-twitter:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+ }
+
+ .icon-facebook {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: currentColor;
+ }
+
+ .icon-facebook:focus,
+ .icon-facebook:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+ .icon-linkedin {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: currentColor;
+ }
+
+ .icon-linkedin:focus,
+ .icon-linkedin:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+ }
+
+
+ .icon-networks {
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  justify-content: center;
+ }
+ 
 /* Футер */
 
 .info {
