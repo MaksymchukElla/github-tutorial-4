@@ -477,13 +477,47 @@ section {
   color: var(--accent-color);
  }
 
-
  .icon-networks {
   display: flex;
   margin-right: 5px;
   margin-bottom: 30px;
   justify-content: center;
  }
+
+ /* Постійні клієнти */
+
+ .clients {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+ }
+
+ .name {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+ }
+
+.icon-list {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  box-sizing: border-box;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  flex-basis: calc((100%-150px)/6);
+}
+.icon-list:focus,
+.icon-list:hover {
+  cursor: pointer;
+  border-color: var(--accent-color);
+}
+
  
 /* Футер */
 
