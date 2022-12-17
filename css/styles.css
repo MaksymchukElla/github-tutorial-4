@@ -443,7 +443,7 @@ section {
  .icon-twitter {
   width: 20px;
   height: 20px;
-  margin: 12px 13.88px;
+  margin: 12px;
   fill: currentColor;
  }
  .icon-twitter:focus,
@@ -482,6 +482,7 @@ section {
   margin-right: 5px;
   margin-bottom: 30px;
   justify-content: center;
+  
  }
 
  /* Постійні клієнти */
@@ -526,7 +527,7 @@ section {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 0px;
+  margin-top: 9px;
 }
 
 .studio {
@@ -550,19 +551,46 @@ section {
 }
 
 .text-name {
+  margin-bottom: 20px;
   font-weight: 700;
- font-size: 14px;
- line-height: 16px;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color: #FFFFFF;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .icon-footer{
-  display: flex;
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
   
 }
+.icon-name {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: var(--primary-white-color);
+}
 
+.icon-name:focus,
+.icon-name:hover {
+  cursor: pointer;
+}
+
+.icon-footer:focus,
+.icon-footer:hover {
+  cursor: pointer;
+  background: var(--accent-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: left;
+}
 /* Портфоліо */
 
 /* Герой */
