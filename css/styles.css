@@ -14,6 +14,7 @@
 body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
 }
 
 .list {
@@ -45,7 +46,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid brown;
+  /* outline: 2px solid brown; */
 }
 
 section {
@@ -598,7 +599,7 @@ section {
 .button-type {
   padding: 6px 22px;
   margin-right: 8px;
-   color: var(--primary-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -613,6 +614,8 @@ section {
 .button-type:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .button-list {
@@ -655,6 +658,7 @@ section {
   list-style: none;
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
 }
 
 .list-card  {
@@ -663,11 +667,21 @@ section {
   border: 1px solid #EEEEEE;
   margin-right: 30px;
   margin-bottom: 30px;
+  flex: calc(100%/3 - 60px);
+  
+}
+
+.list-card:focus,
+.list-card:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .list-card:nth-child(3n) {
   margin-right: 0px; 
-}
+} 
 
 .list-card:nth-last-child(-n + 3) { 
   margin-bottom: 0px;
