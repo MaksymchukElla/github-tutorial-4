@@ -444,7 +444,7 @@ section {
   margin-right: 5px;
   margin-bottom: 30px;
   border-radius: 50%;
-  justify-content: center;
+  
 }
 
 .icon-network-name:focus,
@@ -456,6 +456,11 @@ section {
 .icon-networks:hover {
   cursor: pointer;
   background-color: var(--accent-color);
+}
+
+.networks-name {
+  display: flex;
+ justify-content: center;
 }
  
  
