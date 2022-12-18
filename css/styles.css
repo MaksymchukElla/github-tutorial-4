@@ -46,7 +46,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid brown; */
+  outline: 2px solid brown;
 }
 
 section {
@@ -308,9 +308,11 @@ section {
 }
 
 .icon-clock-1 {
+  
   height: 70px;
   width: 66.96px;
-  margin: 25px 101.54px;
+  /* margin: 25px 101.54px; */
+background-position: center;
 }
 
 .icon-diagram {
@@ -463,8 +465,6 @@ section {
  justify-content: center;
 }
  
- 
-
  /* Постійні клієнти */
 
  .clients {
@@ -477,6 +477,7 @@ section {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
  }
@@ -588,7 +589,6 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  border-radius: 4px;
   border-color: transparent;
 }
 
@@ -601,7 +601,7 @@ section {
 }
 
 .button-list {
-  padding-bottom: 56px;
+  margin-bottom: 56px;
   padding-left: 0px;
   display: flex;
   justify-content: center;
@@ -639,18 +639,20 @@ section {
 .card-set {
   list-style: none;
   flex-wrap: wrap;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  /* padding-inline-start:0px; */
 }
 
 .list-card  {
+  display: block;
   width: 370px;
-  box-sizing: border-box;
-  border: 1px solid #EEEEEE;
+  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
   flex: calc(100%/3 - 60px);
-  
+  box-sizing: border-box;
+  border: 1px solid #EEEEEE;
 }
 
 .list-card:focus,
