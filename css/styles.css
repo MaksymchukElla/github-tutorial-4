@@ -419,7 +419,7 @@ section {
 .team-role {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 
   color: var(--title-text-color);
   font-weight: 400;
@@ -429,62 +429,36 @@ section {
   text-align: center;
  }
 
- .icon-instagram {
+ .icon-network-name {
+  display: inline-flex;
   width: 20px;
   height: 20px;
-  margin: 12px;
-  fill: #AFB1B8;;
- }
- .icon-instagram:focus,
- .icon-instagram:hover {
-  cursor: pointer;
-  background-color: var(--accent-color);
- }
-
- .icon-twitter {
-  width: 20px;
-  height: 20px;
-  margin: 12px;
-  fill: #AFB1B8;;
- }
- .icon-twitter:focus,
- .icon-twitter:hover {
-  cursor: pointer;
-  background: var(--accent-color);
- }
-
- .icon-facebook {
-  width: 20px;
-  height: 20px;
-  margin: 12px;
-  fill: #AFB1B8;;
- }
-
- .icon-facebook:focus,
- .icon-facebook:hover {
-  cursor: pointer;
-  color: var(--accent-color);
+  margin: 12px; 
+  fill: #AFB1B8;
 }
- .icon-linkedin {
-  width: 20px;
-  height: 20px;
-  margin: 12px;
-  fill: #AFB1B8;;
- }
 
- .icon-linkedin:focus,
- .icon-linkedin:hover {
-  cursor: pointer;
-  color: var(--accent-color);
- }
-
- .icon-networks {
-  display: flex;
+.icon-networks {
+  display: inline-flex;
+  width: 44px;
+  height: 44px; 
   margin-right: 5px;
   margin-bottom: 30px;
+  border-radius: 50%;
   justify-content: center;
-  background-color: var(--primary-white-color);
- }
+}
+
+.icon-network-name:focus,
+.icon-network-name:hover {
+  fill: var(--primary-white-color);
+}
+
+.icon-networks:focus,
+.icon-networks:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+ 
+ 
 
  /* Постійні клієнти */
 
@@ -584,14 +558,17 @@ section {
 
 .icon-footer:focus,
 .icon-footer:hover {
-  cursor: pointer;
   background: var(--accent-color);
+}
+.container-info {
+  margin-right: 70px;
 }
 
 .footer {
   display: flex;
   justify-content: left;
 }
+
 /* Портфоліо */
 
 /* Герой */
@@ -685,4 +662,6 @@ section {
 
 .list-card:nth-last-child(-n + 3) { 
   margin-bottom: 0px;
-  } 
+} 
+
+ 
