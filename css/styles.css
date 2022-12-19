@@ -431,48 +431,34 @@ section {
   text-align: center;
  }
 
- .icon-network-name {
-  display: inline-flex;
-  width: 20px;
-  height: 20px;
-  margin: 12px; 
-  fill: #AFB1B8;
-}
-
-.icon-networks {
-  display: inline-flex;
-  height: 100%; 
-  margin-right: 5px;
-  margin-bottom: 30px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  
-}
-.networks-name {
+ .networks-name {
   height: 44px;
-}
-
-/* .icon-network-name:focus, */
-.icon-network-name:hover {
-  cursor: pointer;
-  color: var(--primary-white-color);
-  
-}
-
-.icon-networks:focus,
-.icon-networks:hover {
-  
-  
-  background-color: var(--accent-color);
-}
-
-.networks-name {
+  margin-bottom: 30px;
   display: flex;
   padding-inline-start: 0px;
   justify-content: center;
 }
- 
+
+.icon-networks {
+  display: inline-flex;
+  height: 44px;
+  width: 44px;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-icon {
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.icon-networks:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
  /* Постійні клієнти */
 
  .clients {
@@ -551,38 +537,32 @@ section {
   color: #FFFFFF;
 }
 
-.icon-footer{
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  
-}
-.icon-name {
-  display: block;
-  width: 20px;
-  height: 20px;
-  margin: 12px;
-  fill: var(--primary-white-color);
-}
-
-.icon-name:focus,
-.icon-name:hover {
-  cursor: pointer;
-}
-
-.icon-footer:focus,
-.icon-footer:hover {
-  background: var(--accent-color);
-}
-.container-info {
-  margin-right: 70px;
-}
-
 .footer {
   display: flex;
   justify-content: left;
+} 
+
+.icon-name {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+} 
+
+.icon-footer {
+  display: inline-flex;
+  
+  
+  
+   
+}
+
+
+.icon-name:hover {
+  background: var(--accent-color);
 }
 
 /* Портфоліо */
