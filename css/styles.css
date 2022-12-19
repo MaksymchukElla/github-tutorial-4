@@ -92,7 +92,7 @@ section {
 .link {
   padding-top: 32px;
   padding-bottom: 32px;
-
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -441,15 +441,19 @@ section {
 
 .icon-networks {
   display: inline-flex;
-  width: 44px;
-  height: 44px; 
+  height: 100%; 
   margin-right: 5px;
   margin-bottom: 30px;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
   
 }
+.networks-name {
+  height: 44px;
+}
 
-.icon-network-name:focus,
+/* .icon-network-name:focus, */
 .icon-network-name:hover {
   cursor: pointer;
   color: var(--primary-white-color);
