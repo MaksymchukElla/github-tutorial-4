@@ -46,7 +46,7 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid brown;
+  /* outline: 2px solid brown; */
 }
 
 section {
@@ -281,6 +281,7 @@ section {
   display: block;
   margin-right: 30px;
 }
+
 .list-benefits {
   display: flex;
   list-style: none;
@@ -295,30 +296,30 @@ section {
 
 .icon {
   display: block;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
+  
 }
 
 .icon-antenna {
   height: 70px;
-  width: 65.32px;
-  margin: 25px 102.34px;
+  width: 70px;
+  margin: 25px 102.54px;
+  
 }
 
 .icon-clock-1 {
   
   height: 70px;
   width: 66.96px;
-  /* margin: 25px 101.54px; */
-
+  margin: 25px 101.54px;
 }
 
 .icon-diagram {
   height: 53.60px;
   width: 70px;
-  margin: 33px 100px;
+  margin: 33.11px 100px;
 }
 
 .icon-astronaut {
@@ -433,10 +434,11 @@ section {
 
  .networks-name {
   display: flex;
+  justify-content: center;
   gap: 10px;
  }
 
- .networks-name {
+ .icon-networks {
   height: 44px;
   margin-bottom: 30px;
   display: flex;
@@ -444,7 +446,7 @@ section {
   justify-content: center;
 }
 
-.icon-networks {
+.icon-networks-name {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -454,7 +456,7 @@ section {
   fill: #AFB1B8;
 }
 
-.icon-networks:hover {
+.icon-networks-name:hover {
   cursor: pointer;
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
