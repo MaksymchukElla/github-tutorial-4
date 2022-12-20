@@ -432,6 +432,11 @@ section {
  }
 
  .networks-name {
+  display: flex;
+  gap: 10px;
+ }
+
+ .networks-name {
   height: 44px;
   margin-bottom: 30px;
   display: flex;
@@ -440,16 +445,12 @@ section {
 }
 
 .icon-networks {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 44px;
   width: 44px;
-  margin-right: 5px;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
-}
-.social-icon {
-  height: 20px;
   fill: #AFB1B8;
 }
 
