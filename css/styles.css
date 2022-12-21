@@ -545,6 +545,9 @@ section {
   justify-content: left;
 } 
 
+.bloc-footer {
+  margin-left: 70px;
+}
 .socials-list {
   display: flex;
   gap: 10px;
